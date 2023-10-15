@@ -22,7 +22,7 @@ securityContext: {}
 
 variables:
   ASPNETCORE_URLS: http://*:8080
-  CONNECTIONSTRINGS__PGCONNECTION: server=91.185.84.191; port=5000; database=weather; user id=postgres; pass=postgres-pass;
+  CONNECTIONSTRINGS__PGCONNECTION: server=91.185.84.191; port=5000; database=weather; user id=postgres; password=postgres-pass;
 
 service:
   type: ClusterIP
